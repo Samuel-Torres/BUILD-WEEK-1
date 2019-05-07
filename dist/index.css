@@ -238,6 +238,11 @@ html body {
   display: flex;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .top-container .top-left {
+    display: none;
+  }
+}
 .top-container .top-left .main-img {
   width: 61%;
   height: 72%;
@@ -258,6 +263,11 @@ html body {
   width: 49.9%;
   /* BASIC */
   /* STRUCTURE */
+}
+@media (max-width: 500px) {
+  .top-container .top-right {
+    margin-left: 15rem;
+  }
 }
 .top-container .top-right p {
   color: black;
@@ -537,6 +547,11 @@ html body {
   padding: 5px;
   font-size: 3.2rem;
   margin-top: 50px;
+}
+@media (max-width: 500px) {
+  .bottom-container .bottom-left li {
+    font-size: 1.8rem;
+  }
 }
 .bottom-container .bottom-right {
   width: 50%;

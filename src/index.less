@@ -116,7 +116,9 @@ table {
 
 
 .top-left{
-
+  @media @mobile{
+    display: none;
+  }
   width: 49.9%;
   display: flex;
   align-items: center;
@@ -142,7 +144,9 @@ table {
 
   .top-right{
     width: 49.9%;
-   
+    @media @mobile{
+      margin-left: 15rem;
+    }
 
     p  {
       color: black;
@@ -460,6 +464,10 @@ h2 {
       padding: 5px;  
       font-size: 3.2rem; 
       margin-top: 50px; 
+
+      @media @mobile {
+        font-size: 1.8rem;
+      }
   }
 }
 
